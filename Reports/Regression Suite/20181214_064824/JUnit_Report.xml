@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Suite" time="109" tests="3" failures="0" errors="0">
+   <testsuite name="Regression Suite" tests="3" failures="0" errors="0" time="109" timestamp="2018-12-14 06:48:28" hostname="KWAINAINA - LTTECH1815.mshome.net" id="Test Suites/Regression Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_064824"/>
+         <property name="logFiles" value="C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_064824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KWAINAINA - LTTECH1815.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.28.120.177"/>
+         <property name="sessionId" value="d68eaced47cdd7ac84eff56440707994"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Masoko Sign In" classname="Test Cases/Masoko Sign In" status="PASSED">
+         <system-out><![CDATA[2018-12-14 06:48:28 - [TEST_CASE][PASSED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In
+
+2018-12-14 06:48:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 06:48:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 06:48:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 06:48:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 06:48:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.masoko.com/"): Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 06:48:44 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 06:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 06:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 06:48:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s"), "wainainaken@gmail.com"): Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 06:48:58 - [MESSAGE][PASSED] - Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 06:48:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1"), "ytq8CNxZ20o="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 06:48:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 06:48:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2"), "rQg123ONwgM="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 06:48:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 06:48:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3"), "U2K2yZ+rb98="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 06:48:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 06:48:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4"), "s5hRrzAgB2I="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 06:48:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 06:48:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5"), "qkGC7I7kJnU="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 06:48:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 06:48:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6"), "tO4+Cq/d9vk="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 06:48:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 06:48:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7"), "ratjN/ZUvbI="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 06:48:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 06:48:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 06:48:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 06:48:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 06:48:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 06:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 06:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 06:49:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 06:49:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Masoko Sign In" classname="Test Cases/Masoko Sign In" status="PASSED">
+         <system-out><![CDATA[2018-12-14 06:49:14 - [TEST_CASE][PASSED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In
+
+2018-12-14 06:49:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 06:49:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 06:49:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 06:49:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.masoko.com/"): Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 06:49:31 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 06:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 06:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 06:49:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s"), "wainainaken@gmail.com"): Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 06:49:38 - [MESSAGE][PASSED] - Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 06:49:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1"), "ytq8CNxZ20o="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 06:49:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 06:49:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2"), "rQg123ONwgM="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 06:49:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 06:49:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3"), "U2K2yZ+rb98="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 06:49:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 06:49:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4"), "s5hRrzAgB2I="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 06:49:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 06:49:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5"), "qkGC7I7kJnU="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 06:49:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 06:49:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6"), "tO4+Cq/d9vk="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 06:49:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 06:49:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7"), "ratjN/ZUvbI="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 06:49:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 06:49:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 06:49:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 06:49:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 06:49:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 06:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 06:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 06:49:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 06:49:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Masoko Sign In" classname="Test Cases/Masoko Sign In" status="PASSED">
+         <system-out><![CDATA[2018-12-14 06:49:48 - [TEST_CASE][PASSED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In
+
+2018-12-14 06:49:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 06:49:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 06:49:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 06:49:51 - [TEST_STEP][PASSED] - navigateToUrl("https://www.masoko.com/"): Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 06:49:59 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 06:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 06:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 06:50:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s"), "wainainaken@gmail.com"): Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 06:50:06 - [MESSAGE][PASSED] - Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 06:50:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1"), "ytq8CNxZ20o="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 06:50:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 06:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2"), "rQg123ONwgM="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 06:50:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 06:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3"), "U2K2yZ+rb98="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 06:50:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 06:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4"), "s5hRrzAgB2I="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 06:50:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 06:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5"), "qkGC7I7kJnU="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 06:50:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 06:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6"), "tO4+Cq/d9vk="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 06:50:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 06:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7"), "ratjN/ZUvbI="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 06:50:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 06:50:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 06:50:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 06:50:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 06:50:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 06:50:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 06:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 06:50:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 06:50:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 06:48:28 - [TEST_SUITE][PASSED] - Regression Suite: Test Cases/Masoko Sign In]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Suite,Firefox 62.0,,2018-12-14 07:12:09,2018-12-14 07:14:08,1m - 59.256s,PASSED
+,,,,,,
+Test Cases/Masoko Sign In,Firefox 62.0,,2018-12-14 07:12:09,2018-12-14 07:12:54,44.548s,PASSED
+"openBrowser("""")",Firefox 62.0,,2018-12-14 07:12:10,2018-12-14 07:12:18,7.686s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Firefox 62.0,,2018-12-14 07:12:18,2018-12-14 07:12:28,10.108s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Firefox 62.0,,2018-12-14 07:12:28,2018-12-14 07:12:34,5.600s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s""), email)",Firefox 62.0,,2018-12-14 07:12:34,2018-12-14 07:12:42,8.180s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1""), ""ytq8CNxZ20o="")",Firefox 62.0,,2018-12-14 07:12:42,2018-12-14 07:12:42,0.342s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2""), ""rQg123ONwgM="")",Firefox 62.0,,2018-12-14 07:12:42,2018-12-14 07:12:42,0.264s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3""), ""U2K2yZ+rb98="")",Firefox 62.0,,2018-12-14 07:12:42,2018-12-14 07:12:43,0.248s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4""), ""s5hRrzAgB2I="")",Firefox 62.0,,2018-12-14 07:12:43,2018-12-14 07:12:43,0.742s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5""), ""qkGC7I7kJnU="")",Firefox 62.0,,2018-12-14 07:12:43,2018-12-14 07:12:44,0.348s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6""), ""tO4+Cq/d9vk="")",Firefox 62.0,,2018-12-14 07:12:44,2018-12-14 07:12:44,0.217s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7""), ""ratjN/ZUvbI="")",Firefox 62.0,,2018-12-14 07:12:44,2018-12-14 07:12:44,0.441s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8""), ""+kCcTNaUIqTndFXouXKvTA=="")",Firefox 62.0,,2018-12-14 07:12:44,2018-12-14 07:12:45,0.205s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9""), ""+kCcTNaUIqTndFXouXKvTA=="")",Firefox 62.0,,2018-12-14 07:12:45,2018-12-14 07:12:45,0.165s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In""))",Firefox 62.0,,2018-12-14 07:12:45,2018-12-14 07:12:51,6.371s,PASSED
+closeBrowser(),Firefox 62.0,,2018-12-14 07:12:51,2018-12-14 07:12:54,2.767s,PASSED
+,,,,,,
+Test Cases/Masoko Sign In,Firefox 62.0,,2018-12-14 07:12:54,2018-12-14 07:13:32,38.467s,PASSED
+"openBrowser("""")",Firefox 62.0,,2018-12-14 07:12:54,2018-12-14 07:13:00,5.505s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Firefox 62.0,,2018-12-14 07:13:00,2018-12-14 07:13:09,9.071s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Firefox 62.0,,2018-12-14 07:13:09,2018-12-14 07:13:17,8.490s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s""), email)",Firefox 62.0,,2018-12-14 07:13:17,2018-12-14 07:13:18,0.990s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1""), ""ytq8CNxZ20o="")",Firefox 62.0,,2018-12-14 07:13:18,2018-12-14 07:13:18,0.177s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2""), ""rQg123ONwgM="")",Firefox 62.0,,2018-12-14 07:13:18,2018-12-14 07:13:19,0.281s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3""), ""U2K2yZ+rb98="")",Firefox 62.0,,2018-12-14 07:13:19,2018-12-14 07:13:19,0.304s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4""), ""s5hRrzAgB2I="")",Firefox 62.0,,2018-12-14 07:13:19,2018-12-14 07:13:19,0.254s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5""), ""qkGC7I7kJnU="")",Firefox 62.0,,2018-12-14 07:13:19,2018-12-14 07:13:20,0.897s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6""), ""tO4+Cq/d9vk="")",Firefox 62.0,,2018-12-14 07:13:20,2018-12-14 07:13:21,0.517s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7""), ""ratjN/ZUvbI="")",Firefox 62.0,,2018-12-14 07:13:21,2018-12-14 07:13:21,0.522s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8""), ""+kCcTNaUIqTndFXouXKvTA=="")",Firefox 62.0,,2018-12-14 07:13:21,2018-12-14 07:13:21,0.236s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9""), ""+kCcTNaUIqTndFXouXKvTA=="")",Firefox 62.0,,2018-12-14 07:13:21,2018-12-14 07:13:22,0.905s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In""))",Firefox 62.0,,2018-12-14 07:13:22,2018-12-14 07:13:30,7.708s,PASSED
+closeBrowser(),Firefox 62.0,,2018-12-14 07:13:30,2018-12-14 07:13:32,2.574s,PASSED
+,,,,,,
+Test Cases/Masoko Sign In,Firefox 62.0,,2018-12-14 07:13:32,2018-12-14 07:14:08,35.636s,PASSED
+"openBrowser("""")",Firefox 62.0,,2018-12-14 07:13:32,2018-12-14 07:13:37,4.539s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Firefox 62.0,,2018-12-14 07:13:37,2018-12-14 07:13:46,9.117s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Firefox 62.0,,2018-12-14 07:13:46,2018-12-14 07:13:56,9.482s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s""), email)",Firefox 62.0,,2018-12-14 07:13:56,2018-12-14 07:13:56,0.314s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1""), ""ytq8CNxZ20o="")",Firefox 62.0,,2018-12-14 07:13:56,2018-12-14 07:13:56,0.252s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2""), ""rQg123ONwgM="")",Firefox 62.0,,2018-12-14 07:13:56,2018-12-14 07:13:56,0.114s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3""), ""U2K2yZ+rb98="")",Firefox 62.0,,2018-12-14 07:13:56,2018-12-14 07:13:57,0.306s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4""), ""s5hRrzAgB2I="")",Firefox 62.0,,2018-12-14 07:13:57,2018-12-14 07:13:57,0.155s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5""), ""qkGC7I7kJnU="")",Firefox 62.0,,2018-12-14 07:13:57,2018-12-14 07:13:57,0.202s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6""), ""tO4+Cq/d9vk="")",Firefox 62.0,,2018-12-14 07:13:57,2018-12-14 07:13:57,0.143s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7""), ""ratjN/ZUvbI="")",Firefox 62.0,,2018-12-14 07:13:57,2018-12-14 07:13:57,0.157s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8""), ""+kCcTNaUIqTndFXouXKvTA=="")",Firefox 62.0,,2018-12-14 07:13:57,2018-12-14 07:13:57,0.146s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9""), ""+kCcTNaUIqTndFXouXKvTA=="")",Firefox 62.0,,2018-12-14 07:13:57,2018-12-14 07:13:58,0.123s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In""))",Firefox 62.0,,2018-12-14 07:13:58,2018-12-14 07:14:05,7.775s,PASSED
+closeBrowser(),Firefox 62.0,,2018-12-14 07:14:05,2018-12-14 07:14:08,2.781s,PASSED

@@ -17,38 +17,38 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.masoko.com/')
 
-WebUI.click(findTestObject('Object Repository/Masoko Sign In/Page_Shop Online in Kenya - Pay Con/p_Sign In'))
+WebUI.click(findTestObject('Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s'), 'wainainaken@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_1'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1'), 
     'ytq8CNxZ20o=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_2'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2'), 
     'rQg123ONwgM=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_3'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3'), 
     'U2K2yZ+rb98=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_4'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4'), 
     's5hRrzAgB2I=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_5'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5'), 
     'qkGC7I7kJnU=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_6'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6'), 
     'tO4+Cq/d9vk=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_7'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7'), 
     'ratjN/ZUvbI=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_8'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8'), 
     '+kCcTNaUIqTndFXouXKvTA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/input_If you have an account s_9'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9'), 
     '+kCcTNaUIqTndFXouXKvTA==')
 
-WebUI.click(findTestObject('Object Repository/Masoko Sign In/Page_Customer Login/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In'))
 
 WebUI.closeBrowser()
 
