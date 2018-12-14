@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Suite" time="170" tests="1" failures="2" errors="0">
+   <testsuite name="Regression Suite" tests="1" failures="2" errors="0" time="170" timestamp="2018-12-14 09:38:29" hostname="KWAINAINA - LTTECH1815.mshome.net" id="Test Suites/Regression Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_093825"/>
+         <property name="logFiles" value="C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_093825\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_093825\\1544769607514.png, C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_093825\\1544769676924.png"/>
+         <property name="hostName" value="KWAINAINA - LTTECH1815.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.28.120.177"/>
+         <property name="sessionId" value="95663a8720cb933bc9d496faf4c779f0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Masoko Sign In" classname="Test Cases/Masoko Sign In" status="PASSED">
+         <system-out><![CDATA[2018-12-14 09:38:30 - [TEST_CASE][PASSED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In
+
+2018-12-14 09:38:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 09:38:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 09:38:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 09:38:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 09:38:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.masoko.com/"): Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 09:38:47 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 09:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 09:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 09:39:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s"), email): Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 09:39:04 - [MESSAGE][PASSED] - Text 'wainainaken@gmail.com' is set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 09:39:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1"), "ytq8CNxZ20o="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 09:39:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 09:39:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2"), "rQg123ONwgM="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 09:39:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 09:39:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3"), "U2K2yZ+rb98="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 09:39:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 09:39:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4"), "s5hRrzAgB2I="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 09:39:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 09:39:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5"), "qkGC7I7kJnU="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 09:39:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 09:39:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6"), "tO4+Cq/d9vk="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 09:39:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 09:39:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7"), "ratjN/ZUvbI="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 09:39:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 09:39:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 09:39:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 09:39:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 09:39:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 09:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 09:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 09:39:12 - [TEST_STEP][PASSED] - verifyTextPresent("Hello, Ken", false): Text 'Hello, Ken' is present on page 
+
+2018-12-14 09:39:14 - [MESSAGE][PASSED] - Text 'Hello, Ken' is present on page 
+
+2018-12-14 09:39:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 09:39:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Masoko Sign In" classname="Test Cases/Masoko Sign In" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 09:39:15 - [TEST_CASE][FAILED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)
+
+
+2018-12-14 09:39:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 09:39:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 09:39:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 09:39:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.masoko.com/"): Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 09:39:39 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 09:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 09:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 09:39:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s"), email): Text 'indepthrs@gmail.com' is set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 09:39:52 - [MESSAGE][PASSED] - Text 'indepthrs@gmail.com' is set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 09:39:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1"), "ytq8CNxZ20o="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 09:39:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 09:39:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2"), "rQg123ONwgM="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 09:39:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 09:39:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3"), "U2K2yZ+rb98="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 09:39:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 09:39:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4"), "s5hRrzAgB2I="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 09:39:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 09:39:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5"), "qkGC7I7kJnU="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 09:39:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 09:39:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6"), "tO4+Cq/d9vk="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 09:39:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 09:39:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7"), "ratjN/ZUvbI="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 09:39:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 09:39:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 09:39:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 09:39:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 09:39:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 09:39:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 09:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 09:40:06 - [TEST_STEP][FAILED] - verifyTextPresent("Hello, Ken", false): verifyTextPresent("Hello, Ken", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)
+
+
+2018-12-14 09:40:07 - [MESSAGE][FAILED] - Text 'Hello, Ken' is not present on page 
+
+2018-12-14 09:40:08 - [MESSAGE][FAILED] - Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+[[ATTACHMENT|C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_093825\\1544769607514.png]]
+
+2018-12-14 09:40:08 - [MESSAGE][FAILED] - verifyTextPresent("Hello, Ken", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 09:39:15 - [TEST_CASE][FAILED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Masoko Sign In" classname="Test Cases/Masoko Sign In" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 09:40:08 - [TEST_CASE][FAILED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)
+
+
+2018-12-14 09:40:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 09:40:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 09:40:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 09:40:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 09:40:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.masoko.com/"): Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 09:40:26 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-12-14 09:40:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 09:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 09:40:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s"), email): Text 'dummy@gmail.com' is set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 09:40:50 - [MESSAGE][PASSED] - Text 'dummy@gmail.com' is set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s'
+
+2018-12-14 09:40:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1"), "ytq8CNxZ20o="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 09:40:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1'
+
+2018-12-14 09:40:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2"), "rQg123ONwgM="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 09:40:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2'
+
+2018-12-14 09:40:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3"), "U2K2yZ+rb98="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 09:40:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3'
+
+2018-12-14 09:40:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4"), "s5hRrzAgB2I="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 09:40:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4'
+
+2018-12-14 09:40:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5"), "qkGC7I7kJnU="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 09:40:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5'
+
+2018-12-14 09:40:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6"), "tO4+Cq/d9vk="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 09:40:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6'
+
+2018-12-14 09:40:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7"), "ratjN/ZUvbI="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 09:40:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7'
+
+2018-12-14 09:40:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 09:40:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8'
+
+2018-12-14 09:40:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9"), "+kCcTNaUIqTndFXouXKvTA=="): Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 09:40:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9'
+
+2018-12-14 09:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 09:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 09:41:14 - [TEST_STEP][FAILED] - verifyTextPresent("Hello, Ken", false): verifyTextPresent("Hello, Ken", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)
+
+
+2018-12-14 09:41:16 - [MESSAGE][FAILED] - Text 'Hello, Ken' is not present on page 
+
+2018-12-14 09:41:18 - [MESSAGE][FAILED] - Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+[[ATTACHMENT|C:\\Users\\kwainaina\\Katalon Studio\\Ken Presentation\\Reports\\Regression Suite\\20181214_093825\\1544769676924.png]]
+
+2018-12-14 09:41:18 - [MESSAGE][FAILED] - verifyTextPresent("Hello, Ken", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 09:40:08 - [TEST_CASE][FAILED] - Test Cases/Masoko Sign In: Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 09:38:29 - [TEST_SUITE][FAILED] - Regression Suite: Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-14 09:38:29 - [TEST_SUITE][FAILED] - Regression Suite: Test Cases/Masoko Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello, Ken' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello, Ken' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Masoko Sign In.run(Masoko Sign In:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544769505238.run(TempTestSuite1544769505238.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

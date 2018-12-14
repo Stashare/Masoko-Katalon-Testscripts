@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Suite,Chrome 70.0.3538.110,,2018-12-14 13:28:08,2018-12-14 13:30:24,2m - 15.553s,FAILED
+,,,,,,
+Test Cases/Masoko SignUp,Chrome 70.0.3538.110,,2018-12-14 13:28:09,2018-12-14 13:29:02,52.933s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 13:28:10,2018-12-14 13:28:16,6.245s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 13:28:16,2018-12-14 13:28:33,16.210s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignUp/Page_Shop Online in Kenya - Pay Con/span_Register""))",Chrome 70.0.3538.110,,2018-12-14 13:28:33,2018-12-14 13:28:49,16.709s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Personal Information_fir""), first)",Chrome 70.0.3538.110,,2018-12-14 13:28:49,2018-12-14 13:28:50,0.254s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Personal Information_las""), last)",Chrome 70.0.3538.110,,2018-12-14 13:28:50,2018-12-14 13:28:50,0.177s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_land Islands_mobile""), phone)",Chrome 70.0.3538.110,,2018-12-14 13:28:50,2018-12-14 13:28:50,0.263s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_emai""), email)",Chrome 70.0.3538.110,,2018-12-14 13:28:50,2018-12-14 13:28:50,0.420s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_pass""), ""idfmk6zVFEa4W1l6E8z2cA=="")",Chrome 70.0.3538.110,,2018-12-14 13:28:50,2018-12-14 13:28:51,0.386s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Very Strong_password_con""), ""ratjN/ZUvbI="")",Chrome 70.0.3538.110,,2018-12-14 13:28:51,2018-12-14 13:28:51,0.214s,PASSED
+"initial_password = getText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_pass""))",Chrome 70.0.3538.110,,2018-12-14 13:28:51,2018-12-14 13:28:52,0.446s,PASSED
+"confirm_password = getText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Very Strong_password_con""))",Chrome 70.0.3538.110,,2018-12-14 13:28:52,2018-12-14 13:28:52,0.165s,PASSED
+"verifyMatch(initial_password, confirm_password, false)",Chrome 70.0.3538.110,,2018-12-14 13:28:52,2018-12-14 13:28:52,0.105s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/button_Create an Account""))",Chrome 70.0.3538.110,,2018-12-14 13:28:52,2018-12-14 13:28:58,6.398s,PASSED
+"verifyTextPresent(""You must confirm your account. Please check your email for the confirmation link or click here for a new link."", false)",Chrome 70.0.3538.110,,2018-12-14 13:28:58,2018-12-14 13:29:02,3.632s,FAILED
+,,,,,,
+Test Cases/Masoko SignUp,Chrome 70.0.3538.110,,2018-12-14 13:29:02,2018-12-14 13:29:29,27.555s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 13:29:02,2018-12-14 13:29:06,4.554s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 13:29:06,2018-12-14 13:29:17,10.907s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignUp/Page_Shop Online in Kenya - Pay Con/span_Register""))",Chrome 70.0.3538.110,,2018-12-14 13:29:17,2018-12-14 13:29:25,7.261s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Personal Information_fir""), first)",Chrome 70.0.3538.110,,2018-12-14 13:29:25,2018-12-14 13:29:25,0.266s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Personal Information_las""), last)",Chrome 70.0.3538.110,,2018-12-14 13:29:25,2018-12-14 13:29:25,0.290s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_land Islands_mobile""), phone)",Chrome 70.0.3538.110,,2018-12-14 13:29:25,2018-12-14 13:29:26,0.328s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_emai""), email)",Chrome 70.0.3538.110,,2018-12-14 13:29:26,2018-12-14 13:29:26,0.356s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_pass""), ""idfmk6zVFEa4W1l6E8z2cA=="")",Chrome 70.0.3538.110,,2018-12-14 13:29:26,2018-12-14 13:29:26,0.346s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Very Strong_password_con""), ""ratjN/ZUvbI="")",Chrome 70.0.3538.110,,2018-12-14 13:29:26,2018-12-14 13:29:27,0.667s,PASSED
+"initial_password = getText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_pass""))",Chrome 70.0.3538.110,,2018-12-14 13:29:27,2018-12-14 13:29:27,0.074s,PASSED
+"confirm_password = getText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Very Strong_password_con""))",Chrome 70.0.3538.110,,2018-12-14 13:29:27,2018-12-14 13:29:27,0.092s,PASSED
+"verifyMatch(initial_password, confirm_password, false)",Chrome 70.0.3538.110,,2018-12-14 13:29:27,2018-12-14 13:29:27,0.001s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/button_Create an Account""))",Chrome 70.0.3538.110,,2018-12-14 13:29:27,2018-12-14 13:29:28,0.729s,PASSED
+"verifyTextPresent(""You must confirm your account. Please check your email for the confirmation link or click here for a new link."", false)",Chrome 70.0.3538.110,,2018-12-14 13:29:28,2018-12-14 13:29:29,1.636s,FAILED
+,,,,,,
+Test Cases/Masoko SignUp,Chrome 70.0.3538.110,,2018-12-14 13:29:29,2018-12-14 13:30:23,53.191s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 13:29:29,2018-12-14 13:29:35,5.093s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 13:29:35,2018-12-14 13:29:50,15.012s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignUp/Page_Shop Online in Kenya - Pay Con/span_Register""))",Chrome 70.0.3538.110,,2018-12-14 13:29:50,2018-12-14 13:30:07,17.505s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Personal Information_fir""), first)",Chrome 70.0.3538.110,,2018-12-14 13:30:07,2018-12-14 13:30:08,0.521s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Personal Information_las""), last)",Chrome 70.0.3538.110,,2018-12-14 13:30:08,2018-12-14 13:30:08,0.476s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_land Islands_mobile""), phone)",Chrome 70.0.3538.110,,2018-12-14 13:30:08,2018-12-14 13:30:09,0.569s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_emai""), email)",Chrome 70.0.3538.110,,2018-12-14 13:30:09,2018-12-14 13:30:09,0.383s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_pass""), ""idfmk6zVFEa4W1l6E8z2cA=="")",Chrome 70.0.3538.110,,2018-12-14 13:30:09,2018-12-14 13:30:10,0.536s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Very Strong_password_con""), ""ratjN/ZUvbI="")",Chrome 70.0.3538.110,,2018-12-14 13:30:10,2018-12-14 13:30:10,0.344s,PASSED
+"initial_password = getText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Sign-in Information_pass""))",Chrome 70.0.3538.110,,2018-12-14 13:30:10,2018-12-14 13:30:10,0.223s,PASSED
+"confirm_password = getText(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/input_Very Strong_password_con""))",Chrome 70.0.3538.110,,2018-12-14 13:30:10,2018-12-14 13:30:10,0.268s,PASSED
+"verifyMatch(initial_password, confirm_password, false)",Chrome 70.0.3538.110,,2018-12-14 13:30:10,2018-12-14 13:30:10,0.001s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignUp/Page_Create New Customer Account/button_Create an Account""))",Chrome 70.0.3538.110,,2018-12-14 13:30:10,2018-12-14 13:30:21,10.265s,PASSED
+"verifyTextPresent(""You must confirm your account. Please check your email for the confirmation link or click here for a new link."", false)",Chrome 70.0.3538.110,,2018-12-14 13:30:21,2018-12-14 13:30:23,1.935s,FAILED

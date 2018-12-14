@@ -3,18 +3,14 @@
    <description></description>
    <name>button_Sign In</name>
    <tag></tag>
-   <elementGuidId>b1333437-42ca-4c47-8484-df45d44b8b06</elementGuidId>
+   <elementGuidId>36d4432e-9a0f-4d50-b953-1f4cf47e8837</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'submit' and @name = 'send' and @id = 'send2' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='send2']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>action login primary button button--flat</value>
+      <value>action button button--flat</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,14 +52,16 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign In</value>
+      <value>
+                            Sign In
+                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;login-container&quot;]/div[@class=&quot;block block-customer-login&quot;]/div[@class=&quot;block-content&quot;]/form[@id=&quot;login-form&quot;]/fieldset[@class=&quot;fieldset login&quot;]/div[@class=&quot;actions-toolbar&quot;]/div[@class=&quot;primary&quot;]/button[@id=&quot;send2&quot;]</value>
+      <value>id(&quot;send2&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,30 +73,30 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='login-form']/fieldset/div[6]/div/button</value>
+      <value>//form[@id='login-form']/div[2]/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember Me'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Required Fields'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[3]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Your Password?'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[6]/div/button</value>
+      <value>//div[2]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

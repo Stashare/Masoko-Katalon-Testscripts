@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Masoko Search Functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b5e75ac-e9d1-46c7-9894-4bca27949569</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90fdcb8d-8f81-4aca-9705-564db667debf</id>
+      <masked>false</masked>
+      <name>query</name>
+   </variable>
+</TestCaseEntity>

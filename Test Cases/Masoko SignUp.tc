@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Masoko SignUp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75e74c0b-3585-4367-9028-b4b98944d95d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c92f48ec-60c3-4f57-a279-6e94e91df0c9</id>
+      <masked>false</masked>
+      <name>first</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d967e216-2502-41d5-b381-5bc8cff8643f</id>
+      <masked>false</masked>
+      <name>last</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c14817fa-8373-4d29-a48f-e8220d3756a6</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f26dcb5d-24ee-4931-b262-95cb522963dc</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>46a37c24-5bc2-479e-8373-8cf39e8923c8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3bb86d45-52be-40b6-9872-197fa8bb13c7</id>
+      <masked>false</masked>
+      <name>confirm_pswd</name>
+   </variable>
+</TestCaseEntity>

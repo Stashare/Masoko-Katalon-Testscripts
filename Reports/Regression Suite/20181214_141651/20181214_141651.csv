@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Suite,Chrome 70.0.3538.110,,2018-12-14 14:16:56,2018-12-14 14:17:47,51.209s,PASSED
+,,,,,,
+Test Cases/Masoko Search Functionality,Chrome 70.0.3538.110,,2018-12-14 14:16:57,2018-12-14 14:17:23,25.958s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 14:16:58,2018-12-14 14:17:03,5.570s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 14:17:03,2018-12-14 14:17:14,10.799s,PASSED
+"setText(findTestObject(""Object Repository/Masoko Search/Page_Shop Online in Kenya - Pay Con/input_Search_q""), query)",Chrome 70.0.3538.110,,2018-12-14 14:17:14,2018-12-14 14:17:15,0.490s,PASSED
+"click(findTestObject(""Object Repository/Masoko Search/Page_Shop Online in Kenya - Pay Con/button_Search""))",Chrome 70.0.3538.110,,2018-12-14 14:17:15,2018-12-14 14:17:23,8.153s,PASSED
+,,,,,,
+Test Cases/Masoko Search Functionality,Chrome 70.0.3538.110,,2018-12-14 14:17:23,2018-12-14 14:17:46,23.206s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 14:17:23,2018-12-14 14:17:27,4.463s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 14:17:27,2018-12-14 14:17:38,10.795s,PASSED
+"setText(findTestObject(""Object Repository/Masoko Search/Page_Shop Online in Kenya - Pay Con/input_Search_q""), query)",Chrome 70.0.3538.110,,2018-12-14 14:17:38,2018-12-14 14:17:39,0.512s,PASSED
+"click(findTestObject(""Object Repository/Masoko Search/Page_Shop Online in Kenya - Pay Con/button_Search""))",Chrome 70.0.3538.110,,2018-12-14 14:17:39,2018-12-14 14:17:46,7.394s,PASSED

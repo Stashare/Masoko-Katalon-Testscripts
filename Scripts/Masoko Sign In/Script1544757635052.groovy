@@ -50,5 +50,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Masoko SignIn/Page_Cust
 
 WebUI.click(findTestObject('Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In'))
 
+//Confirm Log In was successful
+WebUI.verifyTextPresent('Hello, Ken', false)
+
 WebUI.closeBrowser()
 

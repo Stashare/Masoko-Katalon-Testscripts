@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Suite,Chrome 70.0.3538.110,,2018-12-14 09:38:29,2018-12-14 09:41:20,2m - 50.836s,FAILED
+,,,,,,
+Test Cases/Masoko Sign In,Chrome 70.0.3538.110,,2018-12-14 09:38:30,2018-12-14 09:39:15,45.463s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 09:38:31,2018-12-14 09:38:38,6.631s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 09:38:38,2018-12-14 09:38:47,9.414s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 09:38:47,2018-12-14 09:39:04,16.413s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s""), email)",Chrome 70.0.3538.110,,2018-12-14 09:39:04,2018-12-14 09:39:04,0.821s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1""), ""ytq8CNxZ20o="")",Chrome 70.0.3538.110,,2018-12-14 09:39:04,2018-12-14 09:39:05,0.305s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2""), ""rQg123ONwgM="")",Chrome 70.0.3538.110,,2018-12-14 09:39:05,2018-12-14 09:39:05,0.168s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3""), ""U2K2yZ+rb98="")",Chrome 70.0.3538.110,,2018-12-14 09:39:05,2018-12-14 09:39:05,0.156s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4""), ""s5hRrzAgB2I="")",Chrome 70.0.3538.110,,2018-12-14 09:39:05,2018-12-14 09:39:05,0.166s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5""), ""qkGC7I7kJnU="")",Chrome 70.0.3538.110,,2018-12-14 09:39:05,2018-12-14 09:39:05,0.185s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6""), ""tO4+Cq/d9vk="")",Chrome 70.0.3538.110,,2018-12-14 09:39:05,2018-12-14 09:39:06,0.158s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7""), ""ratjN/ZUvbI="")",Chrome 70.0.3538.110,,2018-12-14 09:39:06,2018-12-14 09:39:06,0.178s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8""), ""+kCcTNaUIqTndFXouXKvTA=="")",Chrome 70.0.3538.110,,2018-12-14 09:39:06,2018-12-14 09:39:06,0.182s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9""), ""+kCcTNaUIqTndFXouXKvTA=="")",Chrome 70.0.3538.110,,2018-12-14 09:39:06,2018-12-14 09:39:06,0.197s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 09:39:06,2018-12-14 09:39:12,5.935s,PASSED
+"verifyTextPresent(""Hello, Ken"", false)",Chrome 70.0.3538.110,,2018-12-14 09:39:12,2018-12-14 09:39:14,1.625s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-14 09:39:14,2018-12-14 09:39:15,1.681s,PASSED
+,,,,,,
+Test Cases/Masoko Sign In,Chrome 70.0.3538.110,,2018-12-14 09:39:15,2018-12-14 09:40:08,53.004s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 09:39:15,2018-12-14 09:39:19,3.108s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 09:39:19,2018-12-14 09:39:39,20.117s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 09:39:39,2018-12-14 09:39:51,12.013s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s""), email)",Chrome 70.0.3538.110,,2018-12-14 09:39:51,2018-12-14 09:39:52,0.975s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1""), ""ytq8CNxZ20o="")",Chrome 70.0.3538.110,,2018-12-14 09:39:52,2018-12-14 09:39:52,0.494s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2""), ""rQg123ONwgM="")",Chrome 70.0.3538.110,,2018-12-14 09:39:52,2018-12-14 09:39:52,0.323s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3""), ""U2K2yZ+rb98="")",Chrome 70.0.3538.110,,2018-12-14 09:39:52,2018-12-14 09:39:53,0.244s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4""), ""s5hRrzAgB2I="")",Chrome 70.0.3538.110,,2018-12-14 09:39:53,2018-12-14 09:39:53,0.226s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5""), ""qkGC7I7kJnU="")",Chrome 70.0.3538.110,,2018-12-14 09:39:53,2018-12-14 09:39:53,0.289s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6""), ""tO4+Cq/d9vk="")",Chrome 70.0.3538.110,,2018-12-14 09:39:53,2018-12-14 09:39:53,0.250s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7""), ""ratjN/ZUvbI="")",Chrome 70.0.3538.110,,2018-12-14 09:39:53,2018-12-14 09:39:54,0.241s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8""), ""+kCcTNaUIqTndFXouXKvTA=="")",Chrome 70.0.3538.110,,2018-12-14 09:39:54,2018-12-14 09:39:54,0.331s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9""), ""+kCcTNaUIqTndFXouXKvTA=="")",Chrome 70.0.3538.110,,2018-12-14 09:39:54,2018-12-14 09:39:55,0.611s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 09:39:55,2018-12-14 09:40:06,11.152s,PASSED
+"verifyTextPresent(""Hello, Ken"", false)",Chrome 70.0.3538.110,,2018-12-14 09:40:06,2018-12-14 09:40:08,2.540s,FAILED
+,,,,,,
+Test Cases/Masoko Sign In,Chrome 70.0.3538.110,,2018-12-14 09:40:08,2018-12-14 09:41:18,1m - 9.752s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-14 09:40:08,2018-12-14 09:40:13,4.825s,PASSED
+"navigateToUrl(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 09:40:13,2018-12-14 09:40:26,12.352s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 09:40:26,2018-12-14 09:40:48,22.138s,PASSED
+"setText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s""), email)",Chrome 70.0.3538.110,,2018-12-14 09:40:48,2018-12-14 09:40:50,2.667s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_1""), ""ytq8CNxZ20o="")",Chrome 70.0.3538.110,,2018-12-14 09:40:50,2018-12-14 09:40:51,0.470s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_2""), ""rQg123ONwgM="")",Chrome 70.0.3538.110,,2018-12-14 09:40:51,2018-12-14 09:40:51,0.198s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_3""), ""U2K2yZ+rb98="")",Chrome 70.0.3538.110,,2018-12-14 09:40:51,2018-12-14 09:40:51,0.304s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_4""), ""s5hRrzAgB2I="")",Chrome 70.0.3538.110,,2018-12-14 09:40:51,2018-12-14 09:40:52,0.191s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_5""), ""qkGC7I7kJnU="")",Chrome 70.0.3538.110,,2018-12-14 09:40:52,2018-12-14 09:40:52,0.141s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_6""), ""tO4+Cq/d9vk="")",Chrome 70.0.3538.110,,2018-12-14 09:40:52,2018-12-14 09:40:52,0.191s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_7""), ""ratjN/ZUvbI="")",Chrome 70.0.3538.110,,2018-12-14 09:40:52,2018-12-14 09:40:52,0.170s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_8""), ""+kCcTNaUIqTndFXouXKvTA=="")",Chrome 70.0.3538.110,,2018-12-14 09:40:52,2018-12-14 09:40:52,0.321s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/input_If you have an account s_9""), ""+kCcTNaUIqTndFXouXKvTA=="")",Chrome 70.0.3538.110,,2018-12-14 09:40:52,2018-12-14 09:40:53,0.224s,PASSED
+"click(findTestObject(""Object Repository/Masoko SignIn/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 09:40:53,2018-12-14 09:41:14,21.899s,PASSED
+"verifyTextPresent(""Hello, Ken"", false)",Chrome 70.0.3538.110,,2018-12-14 09:41:14,2018-12-14 09:41:18,3.631s,FAILED
